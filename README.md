@@ -1,4 +1,4 @@
-# comfi-house-project
+# comfy-house-project
 
 
 ![landingPage](comfy1.png)
