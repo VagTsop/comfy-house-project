@@ -1,4 +1,4 @@
 # comfi-house-project
 
 
-![comfy1](images/comfy1.jpg)
+![comfy1](C:\images\comfy1.png)
