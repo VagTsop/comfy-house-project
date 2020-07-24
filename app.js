@@ -150,7 +150,7 @@ class UI {
       clearCartBtn.addEventListener('click', () => {
          this.clearCart();
       });
-      // functuonality
+      // functionality
    }
    clearCart() {
       let cartItems = cart.map(item => item.id);
