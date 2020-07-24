@@ -61,7 +61,11 @@ class UI {
 
 }
 //local storage
-class Storage{}
+class Storage{
+     static saveProducts(products) {
+        localStorage.setItem("products", JSON.stringify(products))
+     }
+}
 
 
 document.addEventListener("DOMContentLoaded",() =>{
@@ -69,5 +73,8 @@ document.addEventListener("DOMContentLoaded",() =>{
    const products = new Products();
 
    // get all products
-   products.getProducts().then(products => ui.displayProducts(products));
+   products.getProducts().then(products => {
+   ui.displayProducts(products)
+   Storage.saveProducts(products);
+  });
 });
